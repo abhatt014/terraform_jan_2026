@@ -1,0 +1,5 @@
+# Ignore providers
+lab1/.terraform/
+lab2/.terraform/
+lab3/.terraform/
+
