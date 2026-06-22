@@ -23,7 +23,7 @@ resource "aws_security_group" "terraform_security_group" {
     protocol    = "tcp"
     cidr_blocks = ["0.0.0.0/0"]
   }
-    ingress {
+  ingress {
     from_port   = var.http_port
     to_port     = var.http_port
     protocol    = "tcp"
@@ -41,20 +41,20 @@ resource "aws_security_group" "terraform_security_group" {
 resource "aws_instance" "terraform_ec2_instance" {
   depends_on = [aws_security_group.terraform_security_group, aws_key_pair.terraform_key_pair]
   for_each = tomap({
-    instance1-micro = "t3.micro"
+    instance1-micro  = "t3.micro"
     instance2-medium = "t3.medium"
   })
-  ami           = "ami-0685bcc683dadb6b9"
-  instance_type = each.value
-  key_name      = aws_key_pair.terraform_key_pair.key_name
+  ami             = "ami-0685bcc683dadb6b9"
+  instance_type   = each.value
+  key_name        = aws_key_pair.terraform_key_pair.key_name
   security_groups = [aws_security_group.terraform_security_group.name]
   root_block_device {
     volume_size = var.env == "prod" ? var.root_prod_storage_size : var.root_default_storage_size
     volume_type = "gp3"
   }
-    tags = {
-        Name = each.key
-    }
+  tags = {
+    Name = each.key
+  }
 }
 
 # print public IP of the instance
