@@ -1,0 +1,2007 @@
+{
+    "Resources": [
+        {
+            "Arn": "arn:aws:codebuild:ap-south-1:767398045404:project/devops-oct-build",
+            "OwningAccountId": "767398045404",
+            "Region": "ap-south-1",
+            "ResourceType": "codebuild:project",
+            "Service": "codebuild",
+            "LastReportedAt": "2026-06-15T12:25:47+00:00",
+            "Properties": [
+                {
+                    "Name": "tags",
+                    "LastReportedAt": "2026-06-07T05:59:51+00:00",
+                    "Data": []
+                }
+            ]
+        },
+        {
+            "Arn": "arn:aws:rds:ap-south-1:767398045404:subgrp:rds-ec2-db-subnet-group-2",
+            "OwningAccountId": "767398045404",
+            "Region": "ap-south-1",
+            "ResourceType": "rds:subgrp",
+            "Service": "rds",
+            "LastReportedAt": "2026-06-22T15:13:09+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:ec2:ap-south-1:767398045404:vpc/vpc-002663f58ca949bef",
+            "OwningAccountId": "767398045404",
+            "Region": "ap-south-1",
+            "ResourceType": "ec2:vpc",
+            "Service": "ec2",
+            "LastReportedAt": "2026-06-20T22:17:53+00:00",
+            "Properties": [
+                {
+                    "Name": "tags",
+                    "LastReportedAt": "2026-06-06T05:00:35+00:00",
+                    "Data": [
+                        {
+                            "Key": "Name",
+                            "Value": "devops-oct-vpc2"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Arn": "arn:aws:ssm:ap-south-1:767398045404:association/d72e37e0-f0ab-4491-a7a1-bd3125c679b3",
+            "OwningAccountId": "767398045404",
+            "Region": "ap-south-1",
+            "ResourceType": "ssm:association",
+            "Service": "ssm",
+            "LastReportedAt": "2026-06-23T22:22:53+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:ec2:ap-south-1:767398045404:key-pair/key-030985119521e96cb",
+            "OwningAccountId": "767398045404",
+            "Region": "ap-south-1",
+            "ResourceType": "ec2:key-pair",
+            "Service": "ec2",
+            "LastReportedAt": "2026-06-21T01:09:31+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:ec2:ap-south-1:767398045404:route-table/rtb-0d459e351544fdced",
+            "OwningAccountId": "767398045404",
+            "Region": "ap-south-1",
+            "ResourceType": "ec2:route-table",
+            "Service": "ec2",
+            "LastReportedAt": "2026-06-23T01:03:51+00:00",
+            "Properties": [
+                {
+                    "Name": "tags",
+                    "LastReportedAt": "2026-06-06T04:50:59+00:00",
+                    "Data": [
+                        {
+                            "Key": "Name",
+                            "Value": "devops-oct-rtb"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Arn": "arn:aws:resource-explorer-2:ap-south-1:767398045404:view/ap-south-1/a8fa41fd-e1e9-45a3-952e-9d3ca9ac9acf",
+            "OwningAccountId": "767398045404",
+            "Region": "ap-south-1",
+            "ResourceType": "resource-explorer-2:view",
+            "Service": "resource-explorer-2",
+            "LastReportedAt": "2026-06-12T07:21:51+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:ec2:ap-south-1:767398045404:security-group-rule/sgr-0ca08b92492392df3",
+            "OwningAccountId": "767398045404",
+            "Region": "ap-south-1",
+            "ResourceType": "ec2:security-group-rule",
+            "Service": "ec2",
+            "LastReportedAt": "2026-06-20T19:02:46+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:ec2:ap-south-1:767398045404:security-group-rule/sgr-00f184912ce33f5c6",
+            "OwningAccountId": "767398045404",
+            "Region": "ap-south-1",
+            "ResourceType": "ec2:security-group-rule",
+            "Service": "ec2",
+            "LastReportedAt": "2026-06-20T19:02:46+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:ec2:ap-south-1:767398045404:subnet/subnet-0775da19331e2e6f1",
+            "OwningAccountId": "767398045404",
+            "Region": "ap-south-1",
+            "ResourceType": "ec2:subnet",
+            "Service": "ec2",
+            "LastReportedAt": "2026-06-21T00:10:00+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:ec2:ap-south-1:767398045404:security-group/sg-0847f2068da1cd8ae",
+            "OwningAccountId": "767398045404",
+            "Region": "ap-south-1",
+            "ResourceType": "ec2:security-group",
+            "Service": "ec2",
+            "LastReportedAt": "2026-06-23T19:34:16+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:ec2:ap-south-1:767398045404:security-group/sg-0f4ccbb02ec4083f7",
+            "OwningAccountId": "767398045404",
+            "Region": "ap-south-1",
+            "ResourceType": "ec2:security-group",
+            "Service": "ec2",
+            "LastReportedAt": "2026-06-23T19:34:16+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:ec2:ap-south-1:767398045404:vpc/vpc-0989e916d9369febc",
+            "OwningAccountId": "767398045404",
+            "Region": "ap-south-1",
+            "ResourceType": "ec2:vpc",
+            "Service": "ec2",
+            "LastReportedAt": "2026-06-20T22:17:53+00:00",
+            "Properties": [
+                {
+                    "Name": "tags",
+                    "LastReportedAt": "2026-06-06T04:47:24+00:00",
+                    "Data": [
+                        {
+                            "Key": "Name",
+                            "Value": "devops-oct-vpc"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Arn": "arn:aws:codebuild:ap-south-1:767398045404:project/devops-jan-build",
+            "OwningAccountId": "767398045404",
+            "Region": "ap-south-1",
+            "ResourceType": "codebuild:project",
+            "Service": "codebuild",
+            "LastReportedAt": "2026-06-15T12:25:47+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:ssm:ap-south-1:767398045404:managed-instance/i-0918a34e77b4620a7",
+            "OwningAccountId": "767398045404",
+            "Region": "ap-south-1",
+            "ResourceType": "ssm:managed-instance",
+            "Service": "ssm",
+            "LastReportedAt": "2026-06-22T16:39:05+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:ssm:ap-south-1:767398045404:managed-instance/i-08385cc33a018b640",
+            "OwningAccountId": "767398045404",
+            "Region": "ap-south-1",
+            "ResourceType": "ssm:managed-instance",
+            "Service": "ssm",
+            "LastReportedAt": "2026-06-23T15:57:49+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:ssm:ap-south-1:767398045404:association/699a174a-13e1-457b-b0f2-e647b1148cf4",
+            "OwningAccountId": "767398045404",
+            "Region": "ap-south-1",
+            "ResourceType": "ssm:association",
+            "Service": "ssm",
+            "LastReportedAt": "2026-06-23T22:22:53+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:ec2:ap-south-1:767398045404:route-table/rtb-0d3628ef271e12be3",
+            "OwningAccountId": "767398045404",
+            "Region": "ap-south-1",
+            "ResourceType": "ec2:route-table",
+            "Service": "ec2",
+            "LastReportedAt": "2026-06-23T01:03:51+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:ec2:ap-south-1:767398045404:security-group-rule/sgr-0e3a6bfe4a047d0de",
+            "OwningAccountId": "767398045404",
+            "Region": "ap-south-1",
+            "ResourceType": "ec2:security-group-rule",
+            "Service": "ec2",
+            "LastReportedAt": "2026-06-20T09:00:09+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:ec2:ap-south-1:767398045404:security-group-rule/sgr-0fafcfdda70ed55ce",
+            "OwningAccountId": "767398045404",
+            "Region": "ap-south-1",
+            "ResourceType": "ec2:security-group-rule",
+            "Service": "ec2",
+            "LastReportedAt": "2026-06-20T19:02:46+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:ec2:ap-south-1:767398045404:key-pair/key-01c5cb7982cdc96d4",
+            "OwningAccountId": "767398045404",
+            "Region": "ap-south-1",
+            "ResourceType": "ec2:key-pair",
+            "Service": "ec2",
+            "LastReportedAt": "2026-06-21T01:09:31+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:ec2:ap-south-1:767398045404:instance/i-08385cc33a018b640",
+            "OwningAccountId": "767398045404",
+            "Region": "ap-south-1",
+            "ResourceType": "ec2:instance",
+            "Service": "ec2",
+            "LastReportedAt": "2026-06-23T15:57:34+00:00",
+            "Properties": [
+                {
+                    "Name": "tags",
+                    "LastReportedAt": "2026-06-23T15:57:34+00:00",
+                    "Data": [
+                        {
+                            "Key": "Name",
+                            "Value": "dev-Terraform-ec2-instance"
+                        },
+                        {
+                            "Key": "Environment",
+                            "Value": "dev"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Arn": "arn:aws:memorydb:ap-south-1:767398045404:parametergroup/default.memorydb-valkey7.search",
+            "OwningAccountId": "767398045404",
+            "Region": "ap-south-1",
+            "ResourceType": "memorydb:parametergroup",
+            "Service": "memorydb",
+            "LastReportedAt": "2026-06-20T23:30:13+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:ec2:ap-south-1:767398045404:network-interface/eni-0ef667db366ca8085",
+            "OwningAccountId": "767398045404",
+            "Region": "ap-south-1",
+            "ResourceType": "ec2:network-interface",
+            "Service": "ec2",
+            "LastReportedAt": "2026-06-22T08:13:34+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:codeconnections:ap-south-1:767398045404:connection/2a994fd0-b33c-40fb-a196-d46c16160d05",
+            "OwningAccountId": "767398045404",
+            "Region": "ap-south-1",
+            "ResourceType": "codeconnections:connection",
+            "Service": "codeconnections",
+            "LastReportedAt": "2026-06-23T23:39:25+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:ec2:ap-south-1:767398045404:security-group/sg-020ab56939a94da60",
+            "OwningAccountId": "767398045404",
+            "Region": "ap-south-1",
+            "ResourceType": "ec2:security-group",
+            "Service": "ec2",
+            "LastReportedAt": "2026-06-23T19:34:16+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:ec2:ap-south-1:767398045404:security-group-rule/sgr-04268006f522392b4",
+            "OwningAccountId": "767398045404",
+            "Region": "ap-south-1",
+            "ResourceType": "ec2:security-group-rule",
+            "Service": "ec2",
+            "LastReportedAt": "2026-06-20T19:02:46+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:ec2:ap-south-1:767398045404:security-group-rule/sgr-0a9c8e982b91ed2d3",
+            "OwningAccountId": "767398045404",
+            "Region": "ap-south-1",
+            "ResourceType": "ec2:security-group-rule",
+            "Service": "ec2",
+            "LastReportedAt": "2026-06-20T19:02:46+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:ec2:ap-south-1:767398045404:security-group/sg-0da26b357ce77c5ed",
+            "OwningAccountId": "767398045404",
+            "Region": "ap-south-1",
+            "ResourceType": "ec2:security-group",
+            "Service": "ec2",
+            "LastReportedAt": "2026-06-23T19:34:16+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:ec2:ap-south-1:767398045404:route-table/rtb-0dcc58954927426fa",
+            "OwningAccountId": "767398045404",
+            "Region": "ap-south-1",
+            "ResourceType": "ec2:route-table",
+            "Service": "ec2",
+            "LastReportedAt": "2026-06-23T01:03:51+00:00",
+            "Properties": [
+                {
+                    "Name": "tags",
+                    "LastReportedAt": "2026-06-06T05:02:07+00:00",
+                    "Data": [
+                        {
+                            "Key": "Name",
+                            "Value": "devops-oct-vpc2-rtb"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Arn": "arn:aws:codepipeline:ap-south-1:767398045404:devops-oct-pipeline",
+            "OwningAccountId": "767398045404",
+            "Region": "ap-south-1",
+            "ResourceType": "codepipeline:pipeline",
+            "Service": "codepipeline",
+            "LastReportedAt": "2026-06-24T05:54:30+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:elasticache:ap-south-1:767398045404:user:default",
+            "OwningAccountId": "767398045404",
+            "Region": "ap-south-1",
+            "ResourceType": "elasticache:user",
+            "Service": "elasticache",
+            "LastReportedAt": "2026-06-21T12:41:08+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:ec2:ap-south-1:767398045404:subnet/subnet-001220939a597fff7",
+            "OwningAccountId": "767398045404",
+            "Region": "ap-south-1",
+            "ResourceType": "ec2:subnet",
+            "Service": "ec2",
+            "LastReportedAt": "2026-06-21T00:10:00+00:00",
+            "Properties": [
+                {
+                    "Name": "tags",
+                    "LastReportedAt": "2026-06-06T05:29:49+00:00",
+                    "Data": [
+                        {
+                            "Key": "Name",
+                            "Value": "RDS-Pvt-subnet-1"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Arn": "arn:aws:rds:ap-south-1:767398045404:pg:default.mysql8.0",
+            "OwningAccountId": "767398045404",
+            "Region": "ap-south-1",
+            "ResourceType": "rds:pg",
+            "Service": "rds",
+            "LastReportedAt": "2026-06-20T10:15:01+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:ec2:ap-south-1:767398045404:security-group-rule/sgr-0b4355e1105d7e2cf",
+            "OwningAccountId": "767398045404",
+            "Region": "ap-south-1",
+            "ResourceType": "ec2:security-group-rule",
+            "Service": "ec2",
+            "LastReportedAt": "2026-06-20T09:00:09+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:apprunner:ap-south-1:767398045404:autoscalingconfiguration/DefaultConfiguration/1/00000000000000000000000000000001",
+            "OwningAccountId": "767398045404",
+            "Region": "ap-south-1",
+            "ResourceType": "apprunner:autoscalingconfiguration",
+            "Service": "apprunner",
+            "LastReportedAt": "2026-06-20T15:19:04+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:ssm:ap-south-1:767398045404:association/8b2dc03f-48f5-4e24-9b7c-61c4aa505a4d",
+            "OwningAccountId": "767398045404",
+            "Region": "ap-south-1",
+            "ResourceType": "ssm:association",
+            "Service": "ssm",
+            "LastReportedAt": "2026-06-23T22:22:53+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:logs:ap-south-1:767398045404:log-group:/aws/ecs/containerinsights/ecs-cluster/performance",
+            "OwningAccountId": "767398045404",
+            "Region": "ap-south-1",
+            "ResourceType": "logs:log-group",
+            "Service": "logs",
+            "LastReportedAt": "2026-06-20T15:47:43+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:ec2:ap-south-1:767398045404:internet-gateway/igw-0adff41f005c339ec",
+            "OwningAccountId": "767398045404",
+            "Region": "ap-south-1",
+            "ResourceType": "ec2:internet-gateway",
+            "Service": "ec2",
+            "LastReportedAt": "2026-06-20T03:22:36+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:ec2:ap-south-1:767398045404:security-group-rule/sgr-0cb23ceaa936f1f6c",
+            "OwningAccountId": "767398045404",
+            "Region": "ap-south-1",
+            "ResourceType": "ec2:security-group-rule",
+            "Service": "ec2",
+            "LastReportedAt": "2026-06-20T09:00:09+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:ssm:ap-south-1:767398045404:association/579dba04-bd8b-4be2-8d52-7b917b6686ef",
+            "OwningAccountId": "767398045404",
+            "Region": "ap-south-1",
+            "ResourceType": "ssm:association",
+            "Service": "ssm",
+            "LastReportedAt": "2026-06-23T22:22:53+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:rds:ap-south-1:767398045404:cluster-pg:default.aurora-postgresql17",
+            "OwningAccountId": "767398045404",
+            "Region": "ap-south-1",
+            "ResourceType": "rds:cluster-pg",
+            "Service": "rds",
+            "LastReportedAt": "2026-06-21T10:29:05+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:ec2:ap-south-1:767398045404:key-pair/key-0b7125eac11c88513",
+            "OwningAccountId": "767398045404",
+            "Region": "ap-south-1",
+            "ResourceType": "ec2:key-pair",
+            "Service": "ec2",
+            "LastReportedAt": "2026-06-21T01:09:31+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:ec2:ap-south-1:767398045404:network-acl/acl-04a379ed231cb2210",
+            "OwningAccountId": "767398045404",
+            "Region": "ap-south-1",
+            "ResourceType": "ec2:network-acl",
+            "Service": "ec2",
+            "LastReportedAt": "2026-06-22T04:23:44+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:ec2:ap-south-1:767398045404:subnet/subnet-0c7db91f635bedefb",
+            "OwningAccountId": "767398045404",
+            "Region": "ap-south-1",
+            "ResourceType": "ec2:subnet",
+            "Service": "ec2",
+            "LastReportedAt": "2026-06-21T00:10:00+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:ec2:ap-south-1:767398045404:route-table/rtb-0e5a2552c9c48963f",
+            "OwningAccountId": "767398045404",
+            "Region": "ap-south-1",
+            "ResourceType": "ec2:route-table",
+            "Service": "ec2",
+            "LastReportedAt": "2026-06-23T01:03:51+00:00",
+            "Properties": [
+                {
+                    "Name": "tags",
+                    "LastReportedAt": "2026-06-06T05:29:51+00:00",
+                    "Data": [
+                        {
+                            "Key": "Name",
+                            "Value": "RDS-Pvt-rt"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Arn": "arn:aws:ec2:ap-south-1:767398045404:security-group-rule/sgr-074ff7ccbfdefdc51",
+            "OwningAccountId": "767398045404",
+            "Region": "ap-south-1",
+            "ResourceType": "ec2:security-group-rule",
+            "Service": "ec2",
+            "LastReportedAt": "2026-06-22T16:38:50+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:ec2:ap-south-1:767398045404:security-group-rule/sgr-09c9f9254fca0c1bd",
+            "OwningAccountId": "767398045404",
+            "Region": "ap-south-1",
+            "ResourceType": "ec2:security-group-rule",
+            "Service": "ec2",
+            "LastReportedAt": "2026-06-20T19:02:46+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:ecs:ap-south-1:767398045404:task-definition/devops-oct-td:1",
+            "OwningAccountId": "767398045404",
+            "Region": "ap-south-1",
+            "ResourceType": "ecs:task-definition",
+            "Service": "ecs",
+            "LastReportedAt": "2026-06-20T03:52:36+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:ec2:ap-south-1:767398045404:security-group-rule/sgr-01daf427456813dd6",
+            "OwningAccountId": "767398045404",
+            "Region": "ap-south-1",
+            "ResourceType": "ec2:security-group-rule",
+            "Service": "ec2",
+            "LastReportedAt": "2026-06-20T09:00:09+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:codedeploy:ap-south-1:767398045404:application:devops-oct-codedeploy",
+            "OwningAccountId": "767398045404",
+            "Region": "ap-south-1",
+            "ResourceType": "codedeploy:application",
+            "Service": "codedeploy",
+            "LastReportedAt": "2026-06-19T16:08:35+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:rds:ap-south-1:767398045404:og:default:mysql-8-4",
+            "OwningAccountId": "767398045404",
+            "Region": "ap-south-1",
+            "ResourceType": "rds:og",
+            "Service": "rds",
+            "LastReportedAt": "2026-06-20T15:43:52+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:ec2:ap-south-1:767398045404:security-group-rule/sgr-04d4a8ed1036913f4",
+            "OwningAccountId": "767398045404",
+            "Region": "ap-south-1",
+            "ResourceType": "ec2:security-group-rule",
+            "Service": "ec2",
+            "LastReportedAt": "2026-06-20T19:02:46+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:ec2:ap-south-1:767398045404:security-group-rule/sgr-04f3cb341dc2fd115",
+            "OwningAccountId": "767398045404",
+            "Region": "ap-south-1",
+            "ResourceType": "ec2:security-group-rule",
+            "Service": "ec2",
+            "LastReportedAt": "2026-06-20T19:02:46+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:rds:ap-south-1:767398045404:og:default:aurora-postgresql-17",
+            "OwningAccountId": "767398045404",
+            "Region": "ap-south-1",
+            "ResourceType": "rds:og",
+            "Service": "rds",
+            "LastReportedAt": "2026-06-20T15:43:52+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:codedeploy:ap-south-1:767398045404:application:pyappp",
+            "OwningAccountId": "767398045404",
+            "Region": "ap-south-1",
+            "ResourceType": "codedeploy:application",
+            "Service": "codedeploy",
+            "LastReportedAt": "2026-06-19T16:08:35+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:xray:ap-south-1:767398045404:sampling-rule/Default",
+            "OwningAccountId": "767398045404",
+            "Region": "ap-south-1",
+            "ResourceType": "xray:sampling-rule",
+            "Service": "xray",
+            "LastReportedAt": "2026-06-20T02:39:59+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:ec2:ap-south-1:767398045404:security-group-rule/sgr-0fa19b6133e66c946",
+            "OwningAccountId": "767398045404",
+            "Region": "ap-south-1",
+            "ResourceType": "ec2:security-group-rule",
+            "Service": "ec2",
+            "LastReportedAt": "2026-06-20T19:02:46+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:ec2:ap-south-1:767398045404:security-group-rule/sgr-0feec06e37b2a4835",
+            "OwningAccountId": "767398045404",
+            "Region": "ap-south-1",
+            "ResourceType": "ec2:security-group-rule",
+            "Service": "ec2",
+            "LastReportedAt": "2026-06-22T16:38:50+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:ec2:ap-south-1:767398045404:subnet/subnet-059187689fe1e8835",
+            "OwningAccountId": "767398045404",
+            "Region": "ap-south-1",
+            "ResourceType": "ec2:subnet",
+            "Service": "ec2",
+            "LastReportedAt": "2026-06-21T00:10:00+00:00",
+            "Properties": [
+                {
+                    "Name": "tags",
+                    "LastReportedAt": "2026-06-06T04:48:28+00:00",
+                    "Data": [
+                        {
+                            "Key": "Name",
+                            "Value": "devops-oct-priv-subnet"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Arn": "arn:aws:ec2:ap-south-1:767398045404:route-table/rtb-00e5f19a3dbca7303",
+            "OwningAccountId": "767398045404",
+            "Region": "ap-south-1",
+            "ResourceType": "ec2:route-table",
+            "Service": "ec2",
+            "LastReportedAt": "2026-06-23T01:03:51+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:memorydb:ap-south-1:767398045404:parametergroup/default.memorydb-redis6",
+            "OwningAccountId": "767398045404",
+            "Region": "ap-south-1",
+            "ResourceType": "memorydb:parametergroup",
+            "Service": "memorydb",
+            "LastReportedAt": "2026-06-20T23:30:13+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:ec2:ap-south-1:767398045404:key-pair/key-0be377a8f3bf14318",
+            "OwningAccountId": "767398045404",
+            "Region": "ap-south-1",
+            "ResourceType": "ec2:key-pair",
+            "Service": "ec2",
+            "LastReportedAt": "2026-06-21T01:09:31+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:rds:ap-south-1:767398045404:pg:default.aurora-postgresql17",
+            "OwningAccountId": "767398045404",
+            "Region": "ap-south-1",
+            "ResourceType": "rds:pg",
+            "Service": "rds",
+            "LastReportedAt": "2026-06-20T10:15:01+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:ec2:ap-south-1:767398045404:launch-template/lt-04eadedc40aa12c5c",
+            "OwningAccountId": "767398045404",
+            "Region": "ap-south-1",
+            "ResourceType": "ec2:launch-template",
+            "Service": "ec2",
+            "LastReportedAt": "2026-05-31T07:34:10+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:ec2:ap-south-1:767398045404:security-group/sg-0cf4fce655cd306de",
+            "OwningAccountId": "767398045404",
+            "Region": "ap-south-1",
+            "ResourceType": "ec2:security-group",
+            "Service": "ec2",
+            "LastReportedAt": "2026-06-23T19:34:16+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:codeconnections:ap-south-1:767398045404:connection/63d1d702-2905-49a8-aa2e-0f5647345012",
+            "OwningAccountId": "767398045404",
+            "Region": "ap-south-1",
+            "ResourceType": "codeconnections:connection",
+            "Service": "codeconnections",
+            "LastReportedAt": "2026-06-23T23:39:25+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:ec2:ap-south-1:767398045404:security-group-rule/sgr-065108cde04c8e201",
+            "OwningAccountId": "767398045404",
+            "Region": "ap-south-1",
+            "ResourceType": "ec2:security-group-rule",
+            "Service": "ec2",
+            "LastReportedAt": "2026-06-20T19:02:46+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:ec2:ap-south-1:767398045404:security-group-rule/sgr-0edf89f0cfe9999e2",
+            "OwningAccountId": "767398045404",
+            "Region": "ap-south-1",
+            "ResourceType": "ec2:security-group-rule",
+            "Service": "ec2",
+            "LastReportedAt": "2026-06-20T19:02:46+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:s3:::devops-oct-s3",
+            "OwningAccountId": "767398045404",
+            "Region": "ap-south-1",
+            "ResourceType": "s3:bucket",
+            "Service": "s3",
+            "LastReportedAt": "2026-06-22T03:43:21+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:ssm:ap-south-1:767398045404:association/192bf39d-ac73-4468-a955-b836b64046bb",
+            "OwningAccountId": "767398045404",
+            "Region": "ap-south-1",
+            "ResourceType": "ssm:association",
+            "Service": "ssm",
+            "LastReportedAt": "2026-06-23T22:22:53+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:ec2:ap-south-1:767398045404:instance/i-0cb688b51d16848d2",
+            "OwningAccountId": "767398045404",
+            "Region": "ap-south-1",
+            "ResourceType": "ec2:instance",
+            "Service": "ec2",
+            "LastReportedAt": "2026-06-23T16:39:06+00:00",
+            "Properties": [
+                {
+                    "Name": "tags",
+                    "LastReportedAt": "2026-06-23T16:39:05+00:00",
+                    "Data": [
+                        {
+                            "Key": "Environment",
+                            "Value": "dev"
+                        },
+                        {
+                            "Key": "Name",
+                            "Value": "single-instance"
+                        },
+                        {
+                            "Key": "Terraform",
+                            "Value": "true"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Arn": "arn:aws:ec2:ap-south-1:767398045404:key-pair/key-09df323516a3f788d",
+            "OwningAccountId": "767398045404",
+            "Region": "ap-south-1",
+            "ResourceType": "ec2:key-pair",
+            "Service": "ec2",
+            "LastReportedAt": "2026-06-22T16:38:47+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:ec2:ap-south-1:767398045404:security-group-rule/sgr-0901bd54b41e2506e",
+            "OwningAccountId": "767398045404",
+            "Region": "ap-south-1",
+            "ResourceType": "ec2:security-group-rule",
+            "Service": "ec2",
+            "LastReportedAt": "2026-06-20T19:02:46+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:ec2:ap-south-1:767398045404:security-group-rule/sgr-02e6305ebc0056c89",
+            "OwningAccountId": "767398045404",
+            "Region": "ap-south-1",
+            "ResourceType": "ec2:security-group-rule",
+            "Service": "ec2",
+            "LastReportedAt": "2026-06-20T19:02:46+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:logs:ap-south-1:767398045404:log-group:/aws/lambda/devops-oct-func1",
+            "OwningAccountId": "767398045404",
+            "Region": "ap-south-1",
+            "ResourceType": "logs:log-group",
+            "Service": "logs",
+            "LastReportedAt": "2026-06-20T15:47:43+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:ssm:ap-south-1:767398045404:association/f98874c8-b9e3-47de-827b-faaff2677308",
+            "OwningAccountId": "767398045404",
+            "Region": "ap-south-1",
+            "ResourceType": "ssm:association",
+            "Service": "ssm",
+            "LastReportedAt": "2026-06-23T22:22:53+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:codeconnections:ap-south-1:767398045404:connection/aeca24a2-252c-428c-a2ec-cb0ac6a0c4ca",
+            "OwningAccountId": "767398045404",
+            "Region": "ap-south-1",
+            "ResourceType": "codeconnections:connection",
+            "Service": "codeconnections",
+            "LastReportedAt": "2026-06-23T23:39:25+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:kms:ap-south-1:767398045404:key/441ef352-4861-4580-a01e-09e40940eefb",
+            "OwningAccountId": "767398045404",
+            "Region": "ap-south-1",
+            "ResourceType": "kms:key",
+            "Service": "kms",
+            "LastReportedAt": "2026-06-20T07:38:19+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:codeconnections:ap-south-1:767398045404:connection/69239afb-86ff-4e80-951f-344c1e729d81",
+            "OwningAccountId": "767398045404",
+            "Region": "ap-south-1",
+            "ResourceType": "codeconnections:connection",
+            "Service": "codeconnections",
+            "LastReportedAt": "2026-06-23T23:39:25+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:ec2:ap-south-1:767398045404:subnet/subnet-01fba3c7389e4292f",
+            "OwningAccountId": "767398045404",
+            "Region": "ap-south-1",
+            "ResourceType": "ec2:subnet",
+            "Service": "ec2",
+            "LastReportedAt": "2026-06-21T00:10:00+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:logs:ap-south-1:767398045404:log-group:/aws/codebuild/docker-hub-build",
+            "OwningAccountId": "767398045404",
+            "Region": "ap-south-1",
+            "ResourceType": "logs:log-group",
+            "Service": "logs",
+            "LastReportedAt": "2026-06-20T15:47:43+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:ec2:ap-south-1:767398045404:vpc/vpc-06046eda0ca7a5784",
+            "OwningAccountId": "767398045404",
+            "Region": "ap-south-1",
+            "ResourceType": "ec2:vpc",
+            "Service": "ec2",
+            "LastReportedAt": "2026-06-20T22:17:53+00:00",
+            "Properties": [
+                {
+                    "Name": "tags",
+                    "LastReportedAt": "2026-05-29T06:28:37+00:00",
+                    "Data": [
+                        {
+                            "Key": "Name",
+                            "Value": "default-vpc"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Arn": "arn:aws:ssm:ap-south-1:767398045404:association/128ef6f8-43d4-4b62-80f6-dcc9fcb60c7a",
+            "OwningAccountId": "767398045404",
+            "Region": "ap-south-1",
+            "ResourceType": "ssm:association",
+            "Service": "ssm",
+            "LastReportedAt": "2026-06-23T22:22:53+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:ssm:ap-south-1:767398045404:managed-instance/i-084eefc0146f57540",
+            "OwningAccountId": "767398045404",
+            "Region": "ap-south-1",
+            "ResourceType": "ssm:managed-instance",
+            "Service": "ssm",
+            "LastReportedAt": "2026-06-23T16:09:13+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:ec2:ap-south-1:767398045404:volume/vol-0a0a791b3e96c941e",
+            "OwningAccountId": "767398045404",
+            "Region": "ap-south-1",
+            "ResourceType": "ec2:volume",
+            "Service": "ec2",
+            "LastReportedAt": "2026-06-23T16:39:05+00:00",
+            "Properties": [
+                {
+                    "Name": "tags",
+                    "LastReportedAt": "2026-06-23T16:39:05+00:00",
+                    "Data": [
+                        {
+                            "Key": "Environment",
+                            "Value": "dev"
+                        },
+                        {
+                            "Key": "Name",
+                            "Value": "single-instance"
+                        },
+                        {
+                            "Key": "Terraform",
+                            "Value": "true"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Arn": "arn:aws:ec2:ap-south-1:767398045404:subnet/subnet-0c654f37ecb02c2f8",
+            "OwningAccountId": "767398045404",
+            "Region": "ap-south-1",
+            "ResourceType": "ec2:subnet",
+            "Service": "ec2",
+            "LastReportedAt": "2026-06-21T00:10:00+00:00",
+            "Properties": [
+                {
+                    "Name": "tags",
+                    "LastReportedAt": "2026-06-06T04:48:28+00:00",
+                    "Data": [
+                        {
+                            "Key": "Name",
+                            "Value": "devops-oct-pub-subnet"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Arn": "arn:aws:ec2:ap-south-1:767398045404:key-pair/key-08f0a9c362616525d",
+            "OwningAccountId": "767398045404",
+            "Region": "ap-south-1",
+            "ResourceType": "ec2:key-pair",
+            "Service": "ec2",
+            "LastReportedAt": "2026-06-21T01:09:31+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:ec2:ap-south-1:767398045404:security-group-rule/sgr-0ed2d6d16230e647d",
+            "OwningAccountId": "767398045404",
+            "Region": "ap-south-1",
+            "ResourceType": "ec2:security-group-rule",
+            "Service": "ec2",
+            "LastReportedAt": "2026-06-20T19:02:46+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:rds:ap-south-1:767398045404:og:default:mysql-8-0",
+            "OwningAccountId": "767398045404",
+            "Region": "ap-south-1",
+            "ResourceType": "rds:og",
+            "Service": "rds",
+            "LastReportedAt": "2026-06-20T15:43:52+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:ec2:ap-south-1:767398045404:internet-gateway/igw-0fdff8a6c1a39f031",
+            "OwningAccountId": "767398045404",
+            "Region": "ap-south-1",
+            "ResourceType": "ec2:internet-gateway",
+            "Service": "ec2",
+            "LastReportedAt": "2026-06-20T03:22:36+00:00",
+            "Properties": [
+                {
+                    "Name": "tags",
+                    "LastReportedAt": "2026-06-06T04:50:12+00:00",
+                    "Data": [
+                        {
+                            "Key": "Name",
+                            "Value": "devops-oct-ig"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Arn": "arn:aws:logs:ap-south-1:767398045404:log-group:/aws/codebuild/devops-oct-build",
+            "OwningAccountId": "767398045404",
+            "Region": "ap-south-1",
+            "ResourceType": "logs:log-group",
+            "Service": "logs",
+            "LastReportedAt": "2026-06-20T15:47:43+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:ssm:ap-south-1:767398045404:parameter/pyapp/docker-hub/password",
+            "OwningAccountId": "767398045404",
+            "Region": "ap-south-1",
+            "ResourceType": "ssm:parameter",
+            "Service": "ssm",
+            "LastReportedAt": "2026-06-22T05:01:03+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:ec2:ap-south-1:767398045404:launch-template/lt-0c34fc082ab48bea6",
+            "OwningAccountId": "767398045404",
+            "Region": "ap-south-1",
+            "ResourceType": "ec2:launch-template",
+            "Service": "ec2",
+            "LastReportedAt": "2026-05-31T07:34:10+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:ec2:ap-south-1:767398045404:security-group/sg-053a3b004f62428f5",
+            "OwningAccountId": "767398045404",
+            "Region": "ap-south-1",
+            "ResourceType": "ec2:security-group",
+            "Service": "ec2",
+            "LastReportedAt": "2026-06-23T19:34:16+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:ec2:ap-south-1:767398045404:security-group/sg-043896d0f9c1215b0",
+            "OwningAccountId": "767398045404",
+            "Region": "ap-south-1",
+            "ResourceType": "ec2:security-group",
+            "Service": "ec2",
+            "LastReportedAt": "2026-06-23T19:34:16+00:00",
+            "Properties": [
+                {
+                    "Name": "tags",
+                    "LastReportedAt": "2026-06-23T16:39:01+00:00",
+                    "Data": [
+                        {
+                            "Key": "Environment",
+                            "Value": "dev"
+                        },
+                        {
+                            "Key": "Name",
+                            "Value": "single-instance"
+                        },
+                        {
+                            "Key": "Terraform",
+                            "Value": "true"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Arn": "arn:aws:ec2:ap-south-1:767398045404:key-pair/key-00277712fe59dd1c0",
+            "OwningAccountId": "767398045404",
+            "Region": "ap-south-1",
+            "ResourceType": "ec2:key-pair",
+            "Service": "ec2",
+            "LastReportedAt": "2026-06-21T01:09:31+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:athena:ap-south-1:767398045404:datacatalog/AwsDataCatalog",
+            "OwningAccountId": "767398045404",
+            "Region": "ap-south-1",
+            "ResourceType": "athena:datacatalog",
+            "Service": "athena",
+            "LastReportedAt": "2026-06-20T22:13:26+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:ec2:ap-south-1:767398045404:key-pair/key-015c9c14671e013da",
+            "OwningAccountId": "767398045404",
+            "Region": "ap-south-1",
+            "ResourceType": "ec2:key-pair",
+            "Service": "ec2",
+            "LastReportedAt": "2026-06-21T01:09:31+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:ec2:ap-south-1:767398045404:security-group/sg-0b5945aed67355b09",
+            "OwningAccountId": "767398045404",
+            "Region": "ap-south-1",
+            "ResourceType": "ec2:security-group",
+            "Service": "ec2",
+            "LastReportedAt": "2026-06-23T19:34:16+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:ec2:ap-south-1:767398045404:key-pair/key-06b46d6c72449bc4b",
+            "OwningAccountId": "767398045404",
+            "Region": "ap-south-1",
+            "ResourceType": "ec2:key-pair",
+            "Service": "ec2",
+            "LastReportedAt": "2026-06-21T01:09:31+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:ec2:ap-south-1:767398045404:subnet/subnet-067633e7ec1169484",
+            "OwningAccountId": "767398045404",
+            "Region": "ap-south-1",
+            "ResourceType": "ec2:subnet",
+            "Service": "ec2",
+            "LastReportedAt": "2026-06-21T00:10:00+00:00",
+            "Properties": [
+                {
+                    "Name": "tags",
+                    "LastReportedAt": "2026-06-06T05:29:50+00:00",
+                    "Data": [
+                        {
+                            "Key": "Name",
+                            "Value": "RDS-Pvt-subnet-3"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Arn": "arn:aws:ec2:ap-south-1:767398045404:instance/i-084eefc0146f57540",
+            "OwningAccountId": "767398045404",
+            "Region": "ap-south-1",
+            "ResourceType": "ec2:instance",
+            "Service": "ec2",
+            "LastReportedAt": "2026-06-23T16:09:01+00:00",
+            "Properties": [
+                {
+                    "Name": "tags",
+                    "LastReportedAt": "2026-06-23T16:09:00+00:00",
+                    "Data": [
+                        {
+                            "Key": "Environment",
+                            "Value": "prod"
+                        },
+                        {
+                            "Key": "Name",
+                            "Value": "prod-Terraform-ec2-instance"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Arn": "arn:aws:ssm:ap-south-1:767398045404:association/9cb01e68-36e2-4ead-a147-0c129a8a0bd0",
+            "OwningAccountId": "767398045404",
+            "Region": "ap-south-1",
+            "ResourceType": "ssm:association",
+            "Service": "ssm",
+            "LastReportedAt": "2026-06-23T22:22:53+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:ec2:ap-south-1:767398045404:key-pair/key-00c0b2bb90f9d1cb2",
+            "OwningAccountId": "767398045404",
+            "Region": "ap-south-1",
+            "ResourceType": "ec2:key-pair",
+            "Service": "ec2",
+            "LastReportedAt": "2026-06-21T01:09:31+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:ec2:ap-south-1:767398045404:security-group-rule/sgr-0e2452bf9db92544a",
+            "OwningAccountId": "767398045404",
+            "Region": "ap-south-1",
+            "ResourceType": "ec2:security-group-rule",
+            "Service": "ec2",
+            "LastReportedAt": "2026-06-22T16:38:50+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:s3:::codepipeline-ap-south-1-4c280ecd9df1-4d59-a1d4-5d9e4088e109",
+            "OwningAccountId": "767398045404",
+            "Region": "ap-south-1",
+            "ResourceType": "s3:bucket",
+            "Service": "s3",
+            "LastReportedAt": "2026-06-22T03:43:21+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:ec2:ap-south-1:767398045404:security-group-rule/sgr-01e41ab65513484c3",
+            "OwningAccountId": "767398045404",
+            "Region": "ap-south-1",
+            "ResourceType": "ec2:security-group-rule",
+            "Service": "ec2",
+            "LastReportedAt": "2026-06-20T19:02:46+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:logs:ap-south-1:767398045404:log-group:/aws/codebuild/devops-jan-build",
+            "OwningAccountId": "767398045404",
+            "Region": "ap-south-1",
+            "ResourceType": "logs:log-group",
+            "Service": "logs",
+            "LastReportedAt": "2026-06-20T15:47:43+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:ec2:ap-south-1:767398045404:security-group-rule/sgr-0631be63b69024b2c",
+            "OwningAccountId": "767398045404",
+            "Region": "ap-south-1",
+            "ResourceType": "ec2:security-group-rule",
+            "Service": "ec2",
+            "LastReportedAt": "2026-06-20T19:02:46+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:ec2:ap-south-1:767398045404:security-group/sg-0f820228734878d11",
+            "OwningAccountId": "767398045404",
+            "Region": "ap-south-1",
+            "ResourceType": "ec2:security-group",
+            "Service": "ec2",
+            "LastReportedAt": "2026-06-23T19:34:16+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:ec2:ap-south-1:767398045404:security-group-rule/sgr-05440c96285893656",
+            "OwningAccountId": "767398045404",
+            "Region": "ap-south-1",
+            "ResourceType": "ec2:security-group-rule",
+            "Service": "ec2",
+            "LastReportedAt": "2026-06-22T16:38:50+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:s3:::devcore-tf-state-unique-1234",
+            "OwningAccountId": "767398045404",
+            "Region": "ap-south-1",
+            "ResourceType": "s3:bucket",
+            "Service": "s3",
+            "LastReportedAt": "2026-06-22T16:16:42+00:00",
+            "Properties": [
+                {
+                    "Name": "tags",
+                    "LastReportedAt": "2026-06-22T16:16:42+00:00",
+                    "Data": [
+                        {
+                            "Key": "Name",
+                            "Value": "Terraform State Bucket"
+                        },
+                        {
+                            "Key": "Environment",
+                            "Value": "Dev"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Arn": "arn:aws:ec2:ap-south-1:767398045404:security-group-rule/sgr-022fcb9759e67326d",
+            "OwningAccountId": "767398045404",
+            "Region": "ap-south-1",
+            "ResourceType": "ec2:security-group-rule",
+            "Service": "ec2",
+            "LastReportedAt": "2026-06-20T09:00:09+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:ec2:ap-south-1:767398045404:security-group/sg-0f91d1d83e3e86bcc",
+            "OwningAccountId": "767398045404",
+            "Region": "ap-south-1",
+            "ResourceType": "ec2:security-group",
+            "Service": "ec2",
+            "LastReportedAt": "2026-06-23T19:34:16+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:rds:ap-south-1:767398045404:pg:default.mysql8.4",
+            "OwningAccountId": "767398045404",
+            "Region": "ap-south-1",
+            "ResourceType": "rds:pg",
+            "Service": "rds",
+            "LastReportedAt": "2026-06-20T10:15:01+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:ssm:ap-south-1:767398045404:parameter/pyapp/docker-hub/username",
+            "OwningAccountId": "767398045404",
+            "Region": "ap-south-1",
+            "ResourceType": "ssm:parameter",
+            "Service": "ssm",
+            "LastReportedAt": "2026-06-22T05:01:03+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:ec2:ap-south-1:767398045404:security-group-rule/sgr-0a488c7e137c1b0ac",
+            "OwningAccountId": "767398045404",
+            "Region": "ap-south-1",
+            "ResourceType": "ec2:security-group-rule",
+            "Service": "ec2",
+            "LastReportedAt": "2026-06-20T09:00:09+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:rds:ap-south-1:767398045404:snapshot:devops-oct-mysql-snapshot",
+            "OwningAccountId": "767398045404",
+            "Region": "ap-south-1",
+            "ResourceType": "rds:snapshot",
+            "Service": "rds",
+            "LastReportedAt": "2026-06-22T08:23:09+00:00",
+            "Properties": [
+                {
+                    "Name": "tags",
+                    "LastReportedAt": "2026-06-06T08:36:13+00:00",
+                    "Data": []
+                }
+            ]
+        },
+        {
+            "Arn": "arn:aws:memorydb:ap-south-1:767398045404:parametergroup/default.memorydb-redis7",
+            "OwningAccountId": "767398045404",
+            "Region": "ap-south-1",
+            "ResourceType": "memorydb:parametergroup",
+            "Service": "memorydb",
+            "LastReportedAt": "2026-06-20T23:30:13+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:ec2:ap-south-1:767398045404:security-group-rule/sgr-0a142982c31f82476",
+            "OwningAccountId": "767398045404",
+            "Region": "ap-south-1",
+            "ResourceType": "ec2:security-group-rule",
+            "Service": "ec2",
+            "LastReportedAt": "2026-06-20T19:02:46+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:ec2:ap-south-1:767398045404:security-group-rule/sgr-068e50af456b13934",
+            "OwningAccountId": "767398045404",
+            "Region": "ap-south-1",
+            "ResourceType": "ec2:security-group-rule",
+            "Service": "ec2",
+            "LastReportedAt": "2026-06-20T19:02:46+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:memorydb:ap-south-1:767398045404:acl/open-access",
+            "OwningAccountId": "767398045404",
+            "Region": "ap-south-1",
+            "ResourceType": "memorydb:acl",
+            "Service": "memorydb",
+            "LastReportedAt": "2026-06-21T06:09:01+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:ec2:ap-south-1:767398045404:security-group-rule/sgr-06d55cba4711c4ee8",
+            "OwningAccountId": "767398045404",
+            "Region": "ap-south-1",
+            "ResourceType": "ec2:security-group-rule",
+            "Service": "ec2",
+            "LastReportedAt": "2026-06-20T19:02:46+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:ec2:ap-south-1:767398045404:security-group-rule/sgr-0a4a67f4a0b81c701",
+            "OwningAccountId": "767398045404",
+            "Region": "ap-south-1",
+            "ResourceType": "ec2:security-group-rule",
+            "Service": "ec2",
+            "LastReportedAt": "2026-06-20T09:00:09+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:logs:ap-south-1:767398045404:log-group:/aws/ecs/containerinsights/devops-oct-ecs-cluster/performance",
+            "OwningAccountId": "767398045404",
+            "Region": "ap-south-1",
+            "ResourceType": "logs:log-group",
+            "Service": "logs",
+            "LastReportedAt": "2026-06-20T15:47:43+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:ec2:ap-south-1:767398045404:security-group-rule/sgr-05188077b5833da8c",
+            "OwningAccountId": "767398045404",
+            "Region": "ap-south-1",
+            "ResourceType": "ec2:security-group-rule",
+            "Service": "ec2",
+            "LastReportedAt": "2026-06-20T09:00:09+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:ec2:ap-south-1:767398045404:security-group-rule/sgr-0832e3637c0ea7f9c",
+            "OwningAccountId": "767398045404",
+            "Region": "ap-south-1",
+            "ResourceType": "ec2:security-group-rule",
+            "Service": "ec2",
+            "LastReportedAt": "2026-06-20T09:00:09+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:ec2:ap-south-1:767398045404:key-pair/key-0ea19855c9e3829e6",
+            "OwningAccountId": "767398045404",
+            "Region": "ap-south-1",
+            "ResourceType": "ec2:key-pair",
+            "Service": "ec2",
+            "LastReportedAt": "2026-06-21T01:09:31+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:memorydb:ap-south-1:767398045404:parametergroup/default.memorydb-valkey7",
+            "OwningAccountId": "767398045404",
+            "Region": "ap-south-1",
+            "ResourceType": "memorydb:parametergroup",
+            "Service": "memorydb",
+            "LastReportedAt": "2026-06-20T23:30:13+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:ec2:ap-south-1:767398045404:security-group-rule/sgr-0e5133cf5539ccd71",
+            "OwningAccountId": "767398045404",
+            "Region": "ap-south-1",
+            "ResourceType": "ec2:security-group-rule",
+            "Service": "ec2",
+            "LastReportedAt": "2026-06-20T19:02:46+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:ssm:ap-south-1:767398045404:association/ef7a45f6-fd9a-440b-b509-8e9b4e29d244",
+            "OwningAccountId": "767398045404",
+            "Region": "ap-south-1",
+            "ResourceType": "ssm:association",
+            "Service": "ssm",
+            "LastReportedAt": "2026-06-23T22:22:53+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:athena:ap-south-1:767398045404:workgroup/primary",
+            "OwningAccountId": "767398045404",
+            "Region": "ap-south-1",
+            "ResourceType": "athena:workgroup",
+            "Service": "athena",
+            "LastReportedAt": "2026-06-21T15:15:59+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:ec2:ap-south-1:767398045404:security-group-rule/sgr-0dd4768ba90db7b33",
+            "OwningAccountId": "767398045404",
+            "Region": "ap-south-1",
+            "ResourceType": "ec2:security-group-rule",
+            "Service": "ec2",
+            "LastReportedAt": "2026-06-23T16:39:05+00:00",
+            "Properties": [
+                {
+                    "Name": "tags",
+                    "LastReportedAt": "2026-06-23T16:39:05+00:00",
+                    "Data": [
+                        {
+                            "Key": "Environment",
+                            "Value": "dev"
+                        },
+                        {
+                            "Key": "Terraform",
+                            "Value": "true"
+                        },
+                        {
+                            "Key": "Name",
+                            "Value": "single-instance-ipv6_default"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Arn": "arn:aws:ec2:ap-south-1:767398045404:security-group/sg-025d5160111b8a362",
+            "OwningAccountId": "767398045404",
+            "Region": "ap-south-1",
+            "ResourceType": "ec2:security-group",
+            "Service": "ec2",
+            "LastReportedAt": "2026-06-23T19:34:16+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:ec2:ap-south-1:767398045404:security-group-rule/sgr-0c05b91eb21ff51b6",
+            "OwningAccountId": "767398045404",
+            "Region": "ap-south-1",
+            "ResourceType": "ec2:security-group-rule",
+            "Service": "ec2",
+            "LastReportedAt": "2026-06-20T19:02:46+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:ec2:ap-south-1:767398045404:subnet/subnet-002281e480f6e2359",
+            "OwningAccountId": "767398045404",
+            "Region": "ap-south-1",
+            "ResourceType": "ec2:subnet",
+            "Service": "ec2",
+            "LastReportedAt": "2026-06-21T00:10:00+00:00",
+            "Properties": [
+                {
+                    "Name": "tags",
+                    "LastReportedAt": "2026-06-06T05:29:49+00:00",
+                    "Data": [
+                        {
+                            "Key": "Name",
+                            "Value": "RDS-Pvt-subnet-2"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Arn": "arn:aws:logs:ap-south-1:767398045404:log-group:/ecs/td-app3",
+            "OwningAccountId": "767398045404",
+            "Region": "ap-south-1",
+            "ResourceType": "logs:log-group",
+            "Service": "logs",
+            "LastReportedAt": "2026-06-20T15:47:44+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:ec2:ap-south-1:767398045404:subnet/subnet-0b10dcc0f983cb181",
+            "OwningAccountId": "767398045404",
+            "Region": "ap-south-1",
+            "ResourceType": "ec2:subnet",
+            "Service": "ec2",
+            "LastReportedAt": "2026-06-21T00:10:00+00:00",
+            "Properties": [
+                {
+                    "Name": "tags",
+                    "LastReportedAt": "2026-06-06T05:01:28+00:00",
+                    "Data": [
+                        {
+                            "Key": "Name",
+                            "Value": "devops-oct-vpc2-priv-subnet"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Arn": "arn:aws:cloudformation:ap-south-1:767398045404:stack/Infra-ECS-Cluster-myapp-ecs-cluster-75ceb64e/5a181a00-5ab7-11f1-b3c7-02ca62fc3645",
+            "OwningAccountId": "767398045404",
+            "Region": "ap-south-1",
+            "ResourceType": "cloudformation:stack",
+            "Service": "cloudformation",
+            "LastReportedAt": "2026-06-20T04:44:53+00:00",
+            "Properties": [
+                {
+                    "Name": "tags",
+                    "LastReportedAt": "2026-05-28T17:04:56+00:00",
+                    "Data": []
+                }
+            ]
+        },
+        {
+            "Arn": "arn:aws:codeconnections:ap-south-1:767398045404:connection/c5044e54-f181-40af-bca9-2d569ab69384",
+            "OwningAccountId": "767398045404",
+            "Region": "ap-south-1",
+            "ResourceType": "codeconnections:connection",
+            "Service": "codeconnections",
+            "LastReportedAt": "2026-06-23T23:39:25+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:ssm:ap-south-1:767398045404:parameter/pyapp/docker-hub/url",
+            "OwningAccountId": "767398045404",
+            "Region": "ap-south-1",
+            "ResourceType": "ssm:parameter",
+            "Service": "ssm",
+            "LastReportedAt": "2026-06-22T05:01:03+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:ec2:ap-south-1:767398045404:vpc-peering-connection/pcx-017595616c10a4f66",
+            "OwningAccountId": "767398045404",
+            "Region": "ap-south-1",
+            "ResourceType": "ec2:vpc-peering-connection",
+            "Service": "ec2",
+            "LastReportedAt": "2026-06-21T22:48:46+00:00",
+            "Properties": [
+                {
+                    "Name": "tags",
+                    "LastReportedAt": "2026-06-06T05:10:11+00:00",
+                    "Data": [
+                        {
+                            "Key": "Name",
+                            "Value": "devops-oct-vpc-peering"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Arn": "arn:aws:ec2:ap-south-1:767398045404:route-table/rtb-0eadd29c3ffb1a48f",
+            "OwningAccountId": "767398045404",
+            "Region": "ap-south-1",
+            "ResourceType": "ec2:route-table",
+            "Service": "ec2",
+            "LastReportedAt": "2026-06-23T01:03:51+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:events:ap-south-1:767398045404:event-bus/default",
+            "OwningAccountId": "767398045404",
+            "Region": "ap-south-1",
+            "ResourceType": "events:event-bus",
+            "Service": "events",
+            "LastReportedAt": "2026-06-24T00:11:22+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:ec2:ap-south-1:767398045404:security-group-rule/sgr-0de5d8c75503e743e",
+            "OwningAccountId": "767398045404",
+            "Region": "ap-south-1",
+            "ResourceType": "ec2:security-group-rule",
+            "Service": "ec2",
+            "LastReportedAt": "2026-06-20T19:02:46+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:ec2:ap-south-1:767398045404:volume/vol-0b3345bd3c96e6938",
+            "OwningAccountId": "767398045404",
+            "Region": "ap-south-1",
+            "ResourceType": "ec2:volume",
+            "Service": "ec2",
+            "LastReportedAt": "2026-06-23T13:42:40+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:ec2:ap-south-1:767398045404:instance/i-0918a34e77b4620a7",
+            "OwningAccountId": "767398045404",
+            "Region": "ap-south-1",
+            "ResourceType": "ec2:instance",
+            "Service": "ec2",
+            "LastReportedAt": "2026-06-22T16:38:52+00:00",
+            "Properties": [
+                {
+                    "Name": "tags",
+                    "LastReportedAt": "2026-06-22T16:38:52+00:00",
+                    "Data": [
+                        {
+                            "Key": "Name",
+                            "Value": "Terraform-ec2-instance-1"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Arn": "arn:aws:ec2:ap-south-1:767398045404:network-acl/acl-0a4c112f4a9955a3a",
+            "OwningAccountId": "767398045404",
+            "Region": "ap-south-1",
+            "ResourceType": "ec2:network-acl",
+            "Service": "ec2",
+            "LastReportedAt": "2026-06-22T04:23:44+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:ec2:ap-south-1:767398045404:security-group-rule/sgr-0c3f281a9885419f1",
+            "OwningAccountId": "767398045404",
+            "Region": "ap-south-1",
+            "ResourceType": "ec2:security-group-rule",
+            "Service": "ec2",
+            "LastReportedAt": "2026-06-20T09:00:09+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:kms:ap-south-1:767398045404:key/8517705b-d97f-4188-b79b-ecb3eb3e5cda",
+            "OwningAccountId": "767398045404",
+            "Region": "ap-south-1",
+            "ResourceType": "kms:key",
+            "Service": "kms",
+            "LastReportedAt": "2026-06-20T07:38:19+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:logs:ap-south-1:767398045404:log-group:/ecs/devops-oct-td",
+            "OwningAccountId": "767398045404",
+            "Region": "ap-south-1",
+            "ResourceType": "logs:log-group",
+            "Service": "logs",
+            "LastReportedAt": "2026-06-20T15:47:44+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:ec2:ap-south-1:767398045404:key-pair/key-0dbad8c4fdebaf5e0",
+            "OwningAccountId": "767398045404",
+            "Region": "ap-south-1",
+            "ResourceType": "ec2:key-pair",
+            "Service": "ec2",
+            "LastReportedAt": "2026-06-21T01:09:31+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:ssm:ap-south-1:767398045404:parameter/lab8/docker-hub/password",
+            "OwningAccountId": "767398045404",
+            "Region": "ap-south-1",
+            "ResourceType": "ssm:parameter",
+            "Service": "ssm",
+            "LastReportedAt": "2026-06-22T05:01:03+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:codeconnections:ap-south-1:767398045404:connection/f6d3b3f4-6629-4b74-8c1a-29a5b23c89f0",
+            "OwningAccountId": "767398045404",
+            "Region": "ap-south-1",
+            "ResourceType": "codeconnections:connection",
+            "Service": "codeconnections",
+            "LastReportedAt": "2026-06-23T23:39:25+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:logs:ap-south-1:767398045404:log-group:/aws/lambda/lambda-1",
+            "OwningAccountId": "767398045404",
+            "Region": "ap-south-1",
+            "ResourceType": "logs:log-group",
+            "Service": "logs",
+            "LastReportedAt": "2026-06-20T15:47:44+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:ec2:ap-south-1:767398045404:security-group/sg-0ed2fe8353e3dc302",
+            "OwningAccountId": "767398045404",
+            "Region": "ap-south-1",
+            "ResourceType": "ec2:security-group",
+            "Service": "ec2",
+            "LastReportedAt": "2026-06-23T19:34:16+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:ec2:ap-south-1:767398045404:security-group-rule/sgr-0f1b819253d047b89",
+            "OwningAccountId": "767398045404",
+            "Region": "ap-south-1",
+            "ResourceType": "ec2:security-group-rule",
+            "Service": "ec2",
+            "LastReportedAt": "2026-06-20T09:00:09+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:ec2:ap-south-1:767398045404:security-group-rule/sgr-0adb518587a5cddcb",
+            "OwningAccountId": "767398045404",
+            "Region": "ap-south-1",
+            "ResourceType": "ec2:security-group-rule",
+            "Service": "ec2",
+            "LastReportedAt": "2026-06-20T19:02:46+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:ec2:ap-south-1:767398045404:key-pair/key-04a898e7a7c3ae2a1",
+            "OwningAccountId": "767398045404",
+            "Region": "ap-south-1",
+            "ResourceType": "ec2:key-pair",
+            "Service": "ec2",
+            "LastReportedAt": "2026-06-21T01:09:31+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:ec2:ap-south-1:767398045404:network-interface/eni-0d2cc7a43a56e567c",
+            "OwningAccountId": "767398045404",
+            "Region": "ap-south-1",
+            "ResourceType": "ec2:network-interface",
+            "Service": "ec2",
+            "LastReportedAt": "2026-06-22T08:13:34+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:ec2:ap-south-1:767398045404:subnet/subnet-06bb14b7de7659901",
+            "OwningAccountId": "767398045404",
+            "Region": "ap-south-1",
+            "ResourceType": "ec2:subnet",
+            "Service": "ec2",
+            "LastReportedAt": "2026-06-21T00:10:00+00:00",
+            "Properties": [
+                {
+                    "Name": "tags",
+                    "LastReportedAt": "2026-06-06T05:01:28+00:00",
+                    "Data": [
+                        {
+                            "Key": "Name",
+                            "Value": "devops-oct-vpc2-pub-subnet"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Arn": "arn:aws:ec2:ap-south-1:767398045404:network-acl/acl-031942e9004ccc968",
+            "OwningAccountId": "767398045404",
+            "Region": "ap-south-1",
+            "ResourceType": "ec2:network-acl",
+            "Service": "ec2",
+            "LastReportedAt": "2026-06-22T04:23:44+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:ec2:ap-south-1:767398045404:internet-gateway/igw-04a60c7c9205fa8a3",
+            "OwningAccountId": "767398045404",
+            "Region": "ap-south-1",
+            "ResourceType": "ec2:internet-gateway",
+            "Service": "ec2",
+            "LastReportedAt": "2026-06-20T03:22:36+00:00",
+            "Properties": [
+                {
+                    "Name": "tags",
+                    "LastReportedAt": "2026-06-06T05:01:50+00:00",
+                    "Data": [
+                        {
+                            "Key": "Name",
+                            "Value": "devops-oct-vpc2-ig"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Arn": "arn:aws:ecs:ap-south-1:767398045404:task-definition/td-app3:1",
+            "OwningAccountId": "767398045404",
+            "Region": "ap-south-1",
+            "ResourceType": "ecs:task-definition",
+            "Service": "ecs",
+            "LastReportedAt": "2026-06-20T03:52:36+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:ssm:ap-south-1:767398045404:parameter/lab8/docker-hub/reponame",
+            "OwningAccountId": "767398045404",
+            "Region": "ap-south-1",
+            "ResourceType": "ssm:parameter",
+            "Service": "ssm",
+            "LastReportedAt": "2026-06-22T05:01:03+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:ec2:ap-south-1:767398045404:security-group-rule/sgr-09fb23a17b86f3669",
+            "OwningAccountId": "767398045404",
+            "Region": "ap-south-1",
+            "ResourceType": "ec2:security-group-rule",
+            "Service": "ec2",
+            "LastReportedAt": "2026-06-23T16:39:05+00:00",
+            "Properties": [
+                {
+                    "Name": "tags",
+                    "LastReportedAt": "2026-06-23T16:39:05+00:00",
+                    "Data": [
+                        {
+                            "Key": "Environment",
+                            "Value": "dev"
+                        },
+                        {
+                            "Key": "Terraform",
+                            "Value": "true"
+                        },
+                        {
+                            "Key": "Name",
+                            "Value": "single-instance-ipv4_default"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Arn": "arn:aws:resource-explorer-2:ap-south-1:767398045404:index/85814f3e-3c02-4737-becc-80799b884263",
+            "OwningAccountId": "767398045404",
+            "Region": "ap-south-1",
+            "ResourceType": "resource-explorer-2:index",
+            "Service": "resource-explorer-2",
+            "LastReportedAt": "2026-06-02T13:25:47+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:kms:ap-south-1:767398045404:key/65f50ce4-20d1-4f97-b2c9-96c7ef7ee005",
+            "OwningAccountId": "767398045404",
+            "Region": "ap-south-1",
+            "ResourceType": "kms:key",
+            "Service": "kms",
+            "LastReportedAt": "2026-06-20T07:38:19+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:events:ap-south-1:767398045404:rule/AutoScalingManagedRule",
+            "OwningAccountId": "767398045404",
+            "Region": "ap-south-1",
+            "ResourceType": "events:rule",
+            "Service": "events",
+            "LastReportedAt": "2026-06-18T23:23:09+00:00",
+            "Properties": [
+                {
+                    "Name": "tags",
+                    "LastReportedAt": "2026-05-08T09:51:27+00:00",
+                    "Data": []
+                }
+            ]
+        },
+        {
+            "Arn": "arn:aws:memorydb:ap-south-1:767398045404:user/default",
+            "OwningAccountId": "767398045404",
+            "Region": "ap-south-1",
+            "ResourceType": "memorydb:user",
+            "Service": "memorydb",
+            "LastReportedAt": "2026-06-21T17:15:44+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:ec2:ap-south-1:767398045404:security-group/sg-04c842332f188dc93",
+            "OwningAccountId": "767398045404",
+            "Region": "ap-south-1",
+            "ResourceType": "ec2:security-group",
+            "Service": "ec2",
+            "LastReportedAt": "2026-06-23T19:34:16+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:ssm:ap-south-1:767398045404:parameter/lab8/docker-hub/url",
+            "OwningAccountId": "767398045404",
+            "Region": "ap-south-1",
+            "ResourceType": "ssm:parameter",
+            "Service": "ssm",
+            "LastReportedAt": "2026-06-22T05:01:03+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:ssm:ap-south-1:767398045404:association/24c234dd-15ff-4939-8ac9-a126472609dd",
+            "OwningAccountId": "767398045404",
+            "Region": "ap-south-1",
+            "ResourceType": "ssm:association",
+            "Service": "ssm",
+            "LastReportedAt": "2026-06-23T22:22:53+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:ec2:ap-south-1:767398045404:security-group-rule/sgr-0e5ea5bb016a6b5cd",
+            "OwningAccountId": "767398045404",
+            "Region": "ap-south-1",
+            "ResourceType": "ec2:security-group-rule",
+            "Service": "ec2",
+            "LastReportedAt": "2026-06-20T19:02:46+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:ec2:ap-south-1:767398045404:network-interface/eni-068662770b9c162fb",
+            "OwningAccountId": "767398045404",
+            "Region": "ap-south-1",
+            "ResourceType": "ec2:network-interface",
+            "Service": "ec2",
+            "LastReportedAt": "2026-06-22T08:13:34+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:ssm:ap-south-1:767398045404:parameter/lab8/docker-hub/username",
+            "OwningAccountId": "767398045404",
+            "Region": "ap-south-1",
+            "ResourceType": "ssm:parameter",
+            "Service": "ssm",
+            "LastReportedAt": "2026-06-22T05:01:03+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:ec2:ap-south-1:767398045404:security-group/sg-032288aca10767b4e",
+            "OwningAccountId": "767398045404",
+            "Region": "ap-south-1",
+            "ResourceType": "ec2:security-group",
+            "Service": "ec2",
+            "LastReportedAt": "2026-06-23T19:34:16+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:ec2:ap-south-1:767398045404:key-pair/key-0979530241bda5e22",
+            "OwningAccountId": "767398045404",
+            "Region": "ap-south-1",
+            "ResourceType": "ec2:key-pair",
+            "Service": "ec2",
+            "LastReportedAt": "2026-06-21T01:09:31+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:ssm:ap-south-1:767398045404:managed-instance/i-0cb688b51d16848d2",
+            "OwningAccountId": "767398045404",
+            "Region": "ap-south-1",
+            "ResourceType": "ssm:managed-instance",
+            "Service": "ssm",
+            "LastReportedAt": "2026-06-23T16:39:17+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:rds:ap-south-1:767398045404:subgrp:rds-ec2-db-subnet-group-1",
+            "OwningAccountId": "767398045404",
+            "Region": "ap-south-1",
+            "ResourceType": "rds:subgrp",
+            "Service": "rds",
+            "LastReportedAt": "2026-06-22T15:13:09+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:ec2:ap-south-1:767398045404:dhcp-options/dopt-01afc94ec453ec4f5",
+            "OwningAccountId": "767398045404",
+            "Region": "ap-south-1",
+            "ResourceType": "ec2:dhcp-options",
+            "Service": "ec2",
+            "LastReportedAt": "2026-06-21T02:33:43+00:00",
+            "Properties": []
+        },
+        {
+            "Arn": "arn:aws:memorydb:ap-south-1:767398045404:parametergroup/default.memorydb-redis7.search",
+            "OwningAccountId": "767398045404",
+            "Region": "ap-south-1",
+            "ResourceType": "memorydb:parametergroup",
+            "Service": "memorydb",
+            "LastReportedAt": "2026-06-20T23:30:13+00:00",
+            "Properties": []
+        }
+    ],
+    "ViewArn": "arn:aws:resource-explorer-2:ap-south-1:767398045404:view/ap-south-1/a8fa41fd-e1e9-45a3-952e-9d3ca9ac9acf",
+    "Count": {
+        "TotalResources": 183,
+        "Complete": true
+    }
+}

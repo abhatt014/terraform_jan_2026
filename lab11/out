@@ -1,0 +1,297 @@
+{
+    "ResourceTagMappingList": [
+        {
+            "ResourceARN": "arn:aws:ec2:ap-south-1:767398045404:internet-gateway/igw-04a60c7c9205fa8a3",
+            "Tags": [
+                {
+                    "Key": "Name",
+                    "Value": "devops-oct-vpc2-ig"
+                }
+            ]
+        },
+        {
+            "ResourceARN": "arn:aws:ec2:ap-south-1:767398045404:route-table/rtb-0d459e351544fdced",
+            "Tags": [
+                {
+                    "Key": "Name",
+                    "Value": "devops-oct-rtb"
+                }
+            ]
+        },
+        {
+            "ResourceARN": "arn:aws:ec2:ap-south-1:767398045404:security-group/sg-043896d0f9c1215b0",
+            "Tags": [
+                {
+                    "Key": "Terraform",
+                    "Value": "true"
+                },
+                {
+                    "Key": "Environment",
+                    "Value": "dev"
+                },
+                {
+                    "Key": "Name",
+                    "Value": "single-instance"
+                }
+            ]
+        },
+        {
+            "ResourceARN": "arn:aws:ec2:ap-south-1:767398045404:subnet/subnet-059187689fe1e8835",
+            "Tags": [
+                {
+                    "Key": "Name",
+                    "Value": "devops-oct-priv-subnet"
+                }
+            ]
+        },
+        {
+            "ResourceARN": "arn:aws:ec2:ap-south-1:767398045404:volume/vol-0a0a791b3e96c941e",
+            "Tags": [
+                {
+                    "Key": "Terraform",
+                    "Value": "true"
+                },
+                {
+                    "Key": "Environment",
+                    "Value": "dev"
+                },
+                {
+                    "Key": "Name",
+                    "Value": "single-instance"
+                }
+            ]
+        },
+        {
+            "ResourceARN": "arn:aws:events:ap-south-1:767398045404:rule/AutoScalingManagedRule",
+            "Tags": []
+        },
+        {
+            "ResourceARN": "arn:aws:cloudformation:ap-south-1:767398045404:stack/Infra-ECS-Cluster-myapp-ecs-cluster-75ceb64e/5a181a00-5ab7-11f1-b3c7-02ca62fc3645",
+            "Tags": []
+        },
+        {
+            "ResourceARN": "arn:aws:codebuild:ap-south-1:767398045404:project/devops-oct-build",
+            "Tags": []
+        },
+        {
+            "ResourceARN": "arn:aws:ec2:ap-south-1:767398045404:instance/i-084eefc0146f57540",
+            "Tags": [
+                {
+                    "Key": "Environment",
+                    "Value": "prod"
+                },
+                {
+                    "Key": "Name",
+                    "Value": "prod-Terraform-ec2-instance"
+                }
+            ]
+        },
+        {
+            "ResourceARN": "arn:aws:ec2:ap-south-1:767398045404:instance/i-0918a34e77b4620a7",
+            "Tags": [
+                {
+                    "Key": "Name",
+                    "Value": "Terraform-ec2-instance-1"
+                }
+            ]
+        },
+        {
+            "ResourceARN": "arn:aws:ec2:ap-south-1:767398045404:internet-gateway/igw-0fdff8a6c1a39f031",
+            "Tags": [
+                {
+                    "Key": "Name",
+                    "Value": "devops-oct-ig"
+                }
+            ]
+        },
+        {
+            "ResourceARN": "arn:aws:ec2:ap-south-1:767398045404:route-table/rtb-0e5a2552c9c48963f",
+            "Tags": [
+                {
+                    "Key": "Name",
+                    "Value": "RDS-Pvt-rt"
+                }
+            ]
+        },
+        {
+            "ResourceARN": "arn:aws:ec2:ap-south-1:767398045404:security-group-rule/sgr-0dd4768ba90db7b33",
+            "Tags": [
+                {
+                    "Key": "Terraform",
+                    "Value": "true"
+                },
+                {
+                    "Key": "Environment",
+                    "Value": "dev"
+                },
+                {
+                    "Key": "Name",
+                    "Value": "single-instance-ipv6_default"
+                }
+            ]
+        },
+        {
+            "ResourceARN": "arn:aws:ec2:ap-south-1:767398045404:security-group-rule/sgr-09fb23a17b86f3669",
+            "Tags": [
+                {
+                    "Key": "Terraform",
+                    "Value": "true"
+                },
+                {
+                    "Key": "Environment",
+                    "Value": "dev"
+                },
+                {
+                    "Key": "Name",
+                    "Value": "single-instance-ipv4_default"
+                }
+            ]
+        },
+        {
+            "ResourceARN": "arn:aws:ec2:ap-south-1:767398045404:subnet/subnet-06bb14b7de7659901",
+            "Tags": [
+                {
+                    "Key": "Name",
+                    "Value": "devops-oct-vpc2-pub-subnet"
+                }
+            ]
+        },
+        {
+            "ResourceARN": "arn:aws:ec2:ap-south-1:767398045404:vpc-peering-connection/pcx-017595616c10a4f66",
+            "Tags": [
+                {
+                    "Key": "Name",
+                    "Value": "devops-oct-vpc-peering"
+                }
+            ]
+        },
+        {
+            "ResourceARN": "arn:aws:ec2:ap-south-1:767398045404:instance/i-08385cc33a018b640",
+            "Tags": [
+                {
+                    "Key": "Environment",
+                    "Value": "dev"
+                },
+                {
+                    "Key": "Name",
+                    "Value": "dev-Terraform-ec2-instance"
+                }
+            ]
+        },
+        {
+            "ResourceARN": "arn:aws:ec2:ap-south-1:767398045404:instance/i-0cb688b51d16848d2",
+            "Tags": [
+                {
+                    "Key": "Terraform",
+                    "Value": "true"
+                },
+                {
+                    "Key": "Environment",
+                    "Value": "dev"
+                },
+                {
+                    "Key": "Name",
+                    "Value": "single-instance"
+                }
+            ]
+        },
+        {
+            "ResourceARN": "arn:aws:ec2:ap-south-1:767398045404:route-table/rtb-0dcc58954927426fa",
+            "Tags": [
+                {
+                    "Key": "Name",
+                    "Value": "devops-oct-vpc2-rtb"
+                }
+            ]
+        },
+        {
+            "ResourceARN": "arn:aws:ec2:ap-south-1:767398045404:subnet/subnet-001220939a597fff7",
+            "Tags": [
+                {
+                    "Key": "Name",
+                    "Value": "RDS-Pvt-subnet-1"
+                }
+            ]
+        },
+        {
+            "ResourceARN": "arn:aws:ec2:ap-south-1:767398045404:subnet/subnet-0c654f37ecb02c2f8",
+            "Tags": [
+                {
+                    "Key": "Name",
+                    "Value": "devops-oct-pub-subnet"
+                }
+            ]
+        },
+        {
+            "ResourceARN": "arn:aws:ec2:ap-south-1:767398045404:subnet/subnet-067633e7ec1169484",
+            "Tags": [
+                {
+                    "Key": "Name",
+                    "Value": "RDS-Pvt-subnet-3"
+                }
+            ]
+        },
+        {
+            "ResourceARN": "arn:aws:ec2:ap-south-1:767398045404:subnet/subnet-002281e480f6e2359",
+            "Tags": [
+                {
+                    "Key": "Name",
+                    "Value": "RDS-Pvt-subnet-2"
+                }
+            ]
+        },
+        {
+            "ResourceARN": "arn:aws:ec2:ap-south-1:767398045404:subnet/subnet-0b10dcc0f983cb181",
+            "Tags": [
+                {
+                    "Key": "Name",
+                    "Value": "devops-oct-vpc2-priv-subnet"
+                }
+            ]
+        },
+        {
+            "ResourceARN": "arn:aws:ec2:ap-south-1:767398045404:vpc/vpc-002663f58ca949bef",
+            "Tags": [
+                {
+                    "Key": "Name",
+                    "Value": "devops-oct-vpc2"
+                }
+            ]
+        },
+        {
+            "ResourceARN": "arn:aws:ec2:ap-south-1:767398045404:vpc/vpc-0989e916d9369febc",
+            "Tags": [
+                {
+                    "Key": "Name",
+                    "Value": "devops-oct-vpc"
+                }
+            ]
+        },
+        {
+            "ResourceARN": "arn:aws:ec2:ap-south-1:767398045404:vpc/vpc-06046eda0ca7a5784",
+            "Tags": [
+                {
+                    "Key": "Name",
+                    "Value": "default-vpc"
+                }
+            ]
+        },
+        {
+            "ResourceARN": "arn:aws:rds:ap-south-1:767398045404:snapshot:devops-oct-mysql-snapshot",
+            "Tags": []
+        },
+        {
+            "ResourceARN": "arn:aws:s3:::devcore-tf-state-unique-1234",
+            "Tags": [
+                {
+                    "Key": "Environment",
+                    "Value": "Dev"
+                },
+                {
+                    "Key": "Name",
+                    "Value": "Terraform State Bucket"
+                }
+            ]
+        }
+    ]
+}
